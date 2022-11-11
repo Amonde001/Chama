@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px){
+    .sidebar{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        animation-direction: alternate;
+        animation: reverse;
+    }
+    .card{
+        width: 160px;
+    }
+    .activities{
+        width: 100%;
+        margin: 0px;
+        
+    }
+    .content .balances{
+        display: block;
+
+    }
+    .dropMenu{
+        display: block;
+        display: flex;
+        font-size: 16px;
+    }
+
+    .sidebarclose{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .content .balances{
+        display: block;
+
+    }
+} 
+@media screen and (max-width: 760px){
+    .content .balances{
+        display: block;
+
+    }
+    .card{
+        width: 160px;
+    }
+}
